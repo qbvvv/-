@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<title>个人档案</title>
 		<link href="../css/head.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="../css/btn.css">
 		<style type="text/css">
 			.box{
 				width: 1200px;
@@ -110,7 +111,7 @@
 				<h2 class="h2">个人档案</h2>
 				<div class="box1">
 					<div class="left1">
-						<img src="../img/uestc1.jpg" />
+						<img src="../img/field.png" />
 					</div>
 					<div class="right1">
 						<p class="p1">The undergraduate study of software engineering in has laid a solid foundation of programming knowledge for me. At the same time, it has given me a new understanding of the network world and taught me to think from the perspective of a developer.</p>
@@ -134,7 +135,15 @@
 				</div>
 			</div>
 			<!--页脚-->
+			
 		<footer><center>电子科技大学信息与软件工程学院,2022,2022090913021金宇陶</center></footer>
 		</div>
+		<audio src="../audio/bgm.mp3" id="myaudio" controls="controls" loop="false" hidden="true">
+			</audio>
+			<div class="btn">
+				<input type="button" onclick="autoPlay()" value="播放" />
+				<input type="button" onclick="closePlay()" value="关闭" />
+			</div>		
+		<script src="../js/audioControl.js" type="text/javascript"></script>
 	</body>
 </html>

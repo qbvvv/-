@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<title>作品展示</title>
 		<link href="../css/head.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="../css/btn.css">
 		<style type="text/css">
 			.box{
 				width: 1200px;
@@ -90,7 +91,10 @@
 			<div class="box">
 				<div class="box1">
 					<h2 class="h2">我的作品</h2>
-					<p class="p1">以下几个静态页面虽然不算是成功的案例，但也代表着我本科工程的汇总热爱。不足之处，请多多指教。</p>
+					<p class="p1">以下几个静态页面虽然不算是成功的案例，但也代表着我本科工程的汇总热爱。不足之处，请多多指教。
+						<br>
+						图一到图五为个人项目github链接，图六为电子科技大学官网介绍
+					</p>
 				</div>
 				
 				<!-- 图片展示 -->
@@ -121,12 +125,14 @@
 					</div>
 					<div class="box2_1">
 						<div class="img1">
-							<a href ="https://github.com/qbvvv/Linux-Epoll-Web-Server-.git" target="_blank">
+							<a href ="https://github.com/qbvvv/--website-html-css-js-blog" target="_blank">
 								<img src="../img/gallery/image_05_s.jpg" />
 								</a>
 						</div>
 						<div class="img2">
-							<img src="../img/gallery/image_06_s.jpg" />
+							<a href ="https://www.uestc.edu.cn" target="_blank">
+								<img src="../img/gallery/image_06_s.jpg" />
+								</a>
 						</div>
 					</div>
 				</div>
@@ -136,5 +142,12 @@
 			<!--页脚-->
 		<footer><center>电子科技大学信息与软件工程学院,2022,2022090913021金宇陶</center></footer>
 		</div>
+		<audio src="../audio/bgm.mp3" id="myaudio" controls="controls" loop="false" hidden="true">
+		</audio>
+		<div class="btn">
+			<input type="button" onclick="autoPlay()" value="播放" />
+			<input type="button" onclick="closePlay()" value="关闭" />
+		</div>		
+	<script src="../js/audioControl.js" type="text/javascript"></script>
 	</body>
 </html>

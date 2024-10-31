@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<title>我的特长</title>
 		<link href="../css/head.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="../css/btn.css">
 		<style type="text/css">
 	
 			.experience{
@@ -20,6 +21,9 @@
 				height: 450px;
 				overflow: hidden;
 				padding-bottom: 100px;
+			}
+			.box1 h2{
+				color:aqua
 			}
 			.left1{
 				width: 650px;
@@ -66,7 +70,7 @@
 				padding: 10px 0px 0px 50px;
 			}
 			.left2 li{
-				padding: 10px 0px 0px 50px;
+				padding: 10px 30px 0px 50px;
 			}
 			.right21{
 				width: 500px;
@@ -126,13 +130,14 @@
 			<div class="experience">
 				<div class="box1">
 					
-					<h2 class="h2"> 以梦为马   不负韶华</h2>
+					<h2 class="h2" > 以梦为马   不负韶华</h2>
 					<video controls class="left1">
-		   				 <source src="../video/音乐小程序.mp4" type="video/mp4">
+		   				 <source src="../video/日常生活.mp4" type="video/mp4">
 					</video>
 					<div class="right1">
 						<h3>内容介绍</h3>
-							
+							<br>
+							<p>分享日常生活的碎片；记录生活的点点滴滴。热爱生活、享受生活，目光所及皆是星辰大海。</p>
 					</div>
 				</div>
 				
@@ -157,7 +162,7 @@
 						<h3> 成长之路 </h3>
 							<ul>
 								<li>初入大学主要任务从纯粹学习逐步转移到提升自我至全面型人才。</li>
-								<li>适应工作，不断学习新知识，不局限于大学课堂知识，提高新技能。</li>
+								<li>适应实习，不断学习新知识，不局限于大学课堂知识，提高新技能。</li>
 								<li>视野得到了开阔，磨炼自我，锻炼意志力。</li>
 							</ul>
 						</div>
@@ -169,5 +174,12 @@
 			<!--页脚-->
 		<footer><center>电子科技大学信息与软件工程学院,2022,2022090913021金宇陶</center></footer>
 		</div>
+		<audio src="../audio/bgm.mp3" id="myaudio" controls="controls" loop="false" hidden="true">
+		</audio>
+		<div class="btn">
+			<input type="button" onclick="autoPlay()" value="播放" />
+			<input type="button" onclick="closePlay()" value="关闭" />
+		</div>		
+	<script src="../js/audioControl.js" type="text/javascript"></script>
 	</body>
 </html>
