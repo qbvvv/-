@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>个人相册</title>
+		<link href="../css/head.css" rel="stylesheet"/>
+		<style type="text/css">
+			.photo{
+				width: 1200px;
+				height: 900px;
+				border: 1px solid #FFC0CB;
+				position: relative;
+				background-image: url(../img/photo-bg1.jpg);
+			}
+			
+			.hid{
+				width: 600px;
+				height: 300px;
+				display: none;
+			}
+			.ph1:hover .hid{
+				display: block;
+			}
+			.ph1{
+				box-sizing: border-box;
+				width: 100px;
+				height: 120px;
+				border: 1px solid #000000;
+				position: relative;
+				top: 700px;
+				left: 320px;
+				float: left;
+				margin-left: 5px;
+			}
+			.ph1:hover{
+				border: 1px solid #fff ;
+			}
+			.ph1 img{
+				width: 100%;
+				height: 100%;
+			}
+	
+			.hid{
+				width: 800px;
+				height: 500px;
+				position: absolute;
+				bottom: 200px;
+				box-shadow: -15px -10px 10px #CCCCCC;	
+			}
+			.hid img{
+				width: 800px;
+				height: 380px;
+			}
+			.hid1{
+				left: -130px;
+				display: block;
+				
+			}
+			.hid2{
+				left: -235px;
+				
+			}
+			.hid3{
+				left: -340px;
+			}
+			.hid4{
+				left: -445px;
+				
+			}
+			.hid5{
+				left: -550px;
+			}
+			.text{
+				width: 800px;
+				height: 120px;
+				background-color: #333333;
+				color: #FFFFFF;
+				padding: 20px;
+				box-sizing: border-box;
+			}
+			h4{
+				font-size: 20px;
+				margin-bottom: 20px;
+			}	
+		</style>
+	</head>
+	<body>
+		<div id="container">	
+			<div class="top_head">
+				<h2>JYT  微风（u     个人网站</h2>
+			</div>
+			<!-- 导航栏 -->
+			<div class="top_nav">
+				<ul>
+					<li id="li_1"><a href="../index.html">网站首页</a></li>
+					<li><a href="AboutMe.html">个人档案</a>
+						<ul id="ul_1">
+							<li><a href="Education.html">教育背景</a></li>
+							<li><a href="Experience.html">我的特长</a></li>
+						</ul>
+					</li>
+					<li><a href="ShowCase.html">我的作品</a></li>
+					<li><a href="Photo.html" style="color: #FF8726;">个人相册</a></li>
+					<li><a href="Objective.html">求职意向</a></li>
+					<li><a href="Contact.html">联系方式</a></li>
+				</ul>
+			</div>
+			<div id = top_nav1></div>
+			
+			<!-- 个人相册 -->
+			<div class="photo">
+				<div class="ph1">
+					<div class="hid hid1">
+						<img src="../img/photo-img1.jpg" />
+						<div class="text">
+							<h4>生活中的我</h4>
+							<p>生活中的我心存善意、热爱小动物，包括但不限于小猫小狗。常喂食学校的猫</p>
+						</div>
+					</div>
+					<img src="../img/photo-img1.jpg" />
+				</div>
+				<div class="ph1">
+					<div class="hid hid2"><img src="../img/photo-img2.jpg" />
+					<div class="text">
+							<h4>羽毛球</h4>
+							<p>羽毛球是我从小热爱的竞技运动，挥洒汗水的同时又有着趣味性</p>
+						</div>
+					</div>
+					<img src="../img/photo-img2.jpg" />
+				</div>
+				<div class="ph1">
+					<div class="hid hid3"><img src="../img/photo-img3.jpg" />
+					<div class="text">
+							<h4>大学休闲运动</h4>
+							<p>台球是我喜爱的一向休闲球类，与朋友打娱乐社交两不误。</p>
+						</div>
+					</div>
+					<img src="../img/photo-img3.jpg" />
+				</div>
+				<div class="ph1">
+					<div class="hid hid4">
+						<div class="imgAll"><img src="../img/photo-img4.jpg" />
+						<div class="text">
+							<h4>追求进步的我</h4>
+							<p>跑步等体育锻炼磨练着我们的意志，同时提升我们的身体素质，一举多得。</p>
+						</div></div>
+						
+					</div>
+					<img src="../img/photo-img4.jpg" />
+				</div>
+				<div class="ph1">
+					<div class="hid hid5">
+						<div class="imgAll"><img src="../img/photo-img5.jpg" />
+						<div class="text">
+							<h4>自信的我</h4>
+							<p>我对生活充满热爱和激情，有时候也爱臭美，喜欢自拍和记录生活美好的瞬间。</p>
+						</div></div>
+						
+					</div>
+					<img src="../img/photo-img5.jpg" />
+				</div>
+			</div>
+			
+			
+			<!--页脚-->
+		<footer><center>电子科技大学信息与软件工程学院,2022,2022090913021金宇陶</center></footer>
+		</div>
+	</body>
+</html>
